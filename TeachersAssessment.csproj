@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{49509AD8-C166-4F5D-B74C-3C2B84718A65}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TeachersAssessment</RootNamespace>
+    <AssemblyName>TeachersAssessment</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logoteachersassessment_1_sEo_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Windows\assembly\GAC\Microsoft.Office.Interop.Excel\12.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Windows\assembly\GAC\Microsoft.Office.Interop.Word\12.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="MPrMySQL">
+      <HintPath>..\..\MPrSQL_MYSQL\MPrSQL\bin\x86\Release\MPrMySQL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttendanceFormcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendanceFormcs.Designer.cs">
+      <DependentUpon>AttendanceFormcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ExportToExcel.cs" />
+    <Compile Include="fConfigureDepts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fConfigureDepts.Designer.cs">
+      <DependentUpon>fConfigureDepts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMainOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMainOne.Designer.cs">
+      <DependentUpon>FMainOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMonthlyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMonthlyReport.Designer.cs">
+      <DependentUpon>fMonthlyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRoomAvailabilityView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRoomAvailabilityView.Designer.cs">
+      <DependentUpon>fRoomAvailabilityView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSelectDepartDateTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSelectDepartDateTeacher.Designer.cs">
+      <DependentUpon>fSelectDepartDateTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDailReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDailReport.Designer.cs">
+      <DependentUpon>ViewDailReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fEnterDailyReportData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fEnterDailyReportData.Designer.cs">
+      <DependentUpon>fEnterDailyReportData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormADDCLASSTEACHERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormADDCLASSTEACHERS.Designer.cs">
+      <DependentUpon>FormADDCLASSTEACHERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSettings.Designer.cs">
+      <DependentUpon>fSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fViewTimeTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fViewTimeTable.Designer.cs">
+      <DependentUpon>fViewTimeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTableAdapters.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TablerDBDataSet.cs">
+      <DependentUpon>TablerDBDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TablerDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TablerDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tGlobal.cs" />
+    <Compile Include="UCSchools.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCSchools.designer.cs">
+      <DependentUpon>UCSchools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAttendanceForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAttendanceForms.Designer.cs">
+      <DependentUpon>ViewAttendanceForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vIEWDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vIEWDataSet1.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AttendanceFormcs.resx">
+      <DependentUpon>AttendanceFormcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fConfigureDepts.resx">
+      <DependentUpon>fConfigureDepts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMainOne.resx">
+      <DependentUpon>FMainOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMonthlyReport.resx">
+      <DependentUpon>fMonthlyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRoomAvailabilityView.resx">
+      <DependentUpon>fRoomAvailabilityView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSelectDepartDateTeacher.resx">
+      <DependentUpon>fSelectDepartDateTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDailReport.resx">
+      <DependentUpon>ViewDailReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fEnterDailyReportData.resx">
+      <DependentUpon>fEnterDailyReportData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormADDCLASSTEACHERS.resx">
+      <DependentUpon>FormADDCLASSTEACHERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSettings.resx">
+      <DependentUpon>fSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fViewTimeTable.resx">
+      <DependentUpon>fViewTimeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCSchools.resx">
+      <DependentUpon>UCSchools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAttendanceForms.resx">
+      <DependentUpon>ViewAttendanceForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TablerDBDataSet.xsc">
+      <DependentUpon>TablerDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TablerDBDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TablerDBDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TablerDBDataSet.xss">
+      <DependentUpon>TablerDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="vIEWDataSet1.xsc">
+      <DependentUpon>vIEWDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="vIEWDataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vIEWDataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="vIEWDataSet1.xss">
+      <DependentUpon>vIEWDataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel1">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1443217121_031_FXu_icon.ico" />
+    <Content Include="checklist_128_zsI_icon.ico" />
+    <None Include="Resources\DJSanghviTitle.png" />
+    <None Include="Resources\DJSanghviTitle.bmp" />
+    <None Include="DJSanghviTitle.png" />
+    <Content Include="LogoTeachersAssessment.ico" />
+    <Content Include="logoteachersassessment_1_2TA_icon.ico" />
+    <Content Include="logoteachersassessment_1_sEo_icon.ico" />
+    <Content Include="logoteachersassessment_2_SZq_icon.ico" />
+    <Content Include="logoteachersassessment_QF3_icon.ico" />
+    <Content Include="logoteachersassessment_XDi_icon.ico" />
+    <Content Include="logoteachersassessment_yPM_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\NorthernLights\NorthernLights\NorthernLights - integrated.csproj">
+      <Project>{98956CAD-9986-4444-95B9-C9FC17927A8C}</Project>
+      <Name>NorthernLights - integrated</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

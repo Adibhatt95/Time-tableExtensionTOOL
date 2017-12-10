@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vIEWDataSet1" targetNamespace="http://tempuri.org/vIEWDataSet1.xsd" xmlns:mstns="http://tempuri.org/vIEWDataSet1.xsd" xmlns="http://tempuri.org/vIEWDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vIEWDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="vIEWDataSet1" msprop:Generator_UserDSName="vIEWDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TsFinal" msprop:Generator_TableClassName="TsFinalDataTable" msprop:Generator_TableVarName="tableTsFinal" msprop:Generator_TablePropName="TsFinal" msprop:Generator_RowDeletingName="TsFinalRowDeleting" msprop:Generator_RowChangingName="TsFinalRowChanging" msprop:Generator_RowEvHandlerName="TsFinalRowChangeEventHandler" msprop:Generator_RowDeletedName="TsFinalRowDeleted" msprop:Generator_UserTableName="TsFinal" msprop:Generator_RowChangedName="TsFinalRowChanged" msprop:Generator_RowEvArgName="TsFinalRowChangeEvent" msprop:Generator_RowClassName="TsFinalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TSFInalID" msprop:Generator_ColumnVarNameInTable="columnTSFInalID" msprop:Generator_ColumnPropNameInRow="TSFInalID" msprop:Generator_ColumnPropNameInTable="TSFInalIDColumn" msprop:Generator_UserColumnName="TSFInalID" type="xs:int" minOccurs="0" />
+              <xs:element name="Teacher_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnTeacher_Name" msprop:Generator_ColumnPropNameInRow="Teacher_Name" msprop:Generator_ColumnPropNameInTable="Teacher_NameColumn" msprop:Generator_UserColumnName="Teacher Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Subject_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnSubject_Name" msprop:Generator_ColumnPropNameInRow="Subject_Name" msprop:Generator_ColumnPropNameInTable="Subject_NameColumn" msprop:Generator_UserColumnName="Subject Name" type="xs:string" minOccurs="0" />
+              <xs:element name="GradeName" msprop:Generator_ColumnVarNameInTable="columnGradeName" msprop:Generator_ColumnPropNameInRow="GradeName" msprop:Generator_ColumnPropNameInTable="GradeNameColumn" msprop:Generator_UserColumnName="GradeName" type="xs:string" minOccurs="0" />
+              <xs:element name="NumLect" msprop:Generator_ColumnVarNameInTable="columnNumLect" msprop:Generator_ColumnPropNameInRow="NumLect" msprop:Generator_ColumnPropNameInTable="NumLectColumn" msprop:Generator_UserColumnName="NumLect" type="xs:int" minOccurs="0" />
+              <xs:element name="Room_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnRoom_Name" msprop:Generator_ColumnPropNameInRow="Room_Name" msprop:Generator_ColumnPropNameInTable="Room_NameColumn" msprop:Generator_UserColumnName="Room Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Duration" msprop:Generator_ColumnVarNameInTable="columnDuration" msprop:Generator_ColumnPropNameInRow="Duration" msprop:Generator_ColumnPropNameInTable="DurationColumn" msprop:Generator_UserColumnName="Duration" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TimeTableView" msprop:Generator_TableClassName="TimeTableViewDataTable" msprop:Generator_TableVarName="tableTimeTableView" msprop:Generator_TablePropName="TimeTableView" msprop:Generator_RowDeletingName="TimeTableViewRowDeleting" msprop:Generator_RowChangingName="TimeTableViewRowChanging" msprop:Generator_RowEvHandlerName="TimeTableViewRowChangeEventHandler" msprop:Generator_RowDeletedName="TimeTableViewRowDeleted" msprop:Generator_UserTableName="TimeTableView" msprop:Generator_RowChangedName="TimeTableViewRowChanged" msprop:Generator_RowEvArgName="TimeTableViewRowChangeEvent" msprop:Generator_RowClassName="TimeTableViewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LectureHr" msprop:Generator_ColumnVarNameInTable="columnLectureHr" msprop:Generator_ColumnPropNameInRow="LectureHr" msprop:Generator_ColumnPropNameInTable="LectureHrColumn" msprop:Generator_UserColumnName="LectureHr" type="xs:string" minOccurs="0" />
+              <xs:element name="Monday" msprop:Generator_ColumnVarNameInTable="columnMonday" msprop:Generator_ColumnPropNameInRow="Monday" msprop:Generator_ColumnPropNameInTable="MondayColumn" msprop:Generator_UserColumnName="Monday" type="xs:string" minOccurs="0" />
+              <xs:element name="Tuesday" msprop:Generator_ColumnVarNameInTable="columnTuesday" msprop:Generator_ColumnPropNameInRow="Tuesday" msprop:Generator_ColumnPropNameInTable="TuesdayColumn" msprop:Generator_UserColumnName="Tuesday" type="xs:string" minOccurs="0" />
+              <xs:element name="Wednesday" msprop:Generator_ColumnVarNameInTable="columnWednesday" msprop:Generator_ColumnPropNameInRow="Wednesday" msprop:Generator_ColumnPropNameInTable="WednesdayColumn" msprop:Generator_UserColumnName="Wednesday" type="xs:string" minOccurs="0" />
+              <xs:element name="Thursday" msprop:Generator_ColumnVarNameInTable="columnThursday" msprop:Generator_ColumnPropNameInRow="Thursday" msprop:Generator_ColumnPropNameInTable="ThursdayColumn" msprop:Generator_UserColumnName="Thursday" type="xs:string" minOccurs="0" />
+              <xs:element name="Friday" msprop:Generator_ColumnVarNameInTable="columnFriday" msprop:Generator_ColumnPropNameInRow="Friday" msprop:Generator_ColumnPropNameInTable="FridayColumn" msprop:Generator_UserColumnName="Friday" type="xs:string" minOccurs="0" />
+              <xs:element name="Saturday" msprop:Generator_ColumnVarNameInTable="columnSaturday" msprop:Generator_ColumnPropNameInRow="Saturday" msprop:Generator_ColumnPropNameInTable="SaturdayColumn" msprop:Generator_UserColumnName="Saturday" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PreAssignTbl" msprop:Generator_TableClassName="PreAssignTblDataTable" msprop:Generator_TableVarName="tablePreAssignTbl" msprop:Generator_TablePropName="PreAssignTbl" msprop:Generator_RowDeletingName="PreAssignTblRowDeleting" msprop:Generator_RowChangingName="PreAssignTblRowChanging" msprop:Generator_RowEvHandlerName="PreAssignTblRowChangeEventHandler" msprop:Generator_RowDeletedName="PreAssignTblRowDeleted" msprop:Generator_UserTableName="PreAssignTbl" msprop:Generator_RowChangedName="PreAssignTblRowChanged" msprop:Generator_RowEvArgName="PreAssignTblRowChangeEvent" msprop:Generator_RowClassName="PreAssignTblRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_UserColumnName="Type" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViewAssign" msprop:Generator_TableClassName="ViewAssignDataTable" msprop:Generator_TableVarName="tableViewAssign" msprop:Generator_TablePropName="ViewAssign" msprop:Generator_RowDeletingName="ViewAssignRowDeleting" msprop:Generator_RowChangingName="ViewAssignRowChanging" msprop:Generator_RowEvHandlerName="ViewAssignRowChangeEventHandler" msprop:Generator_RowDeletedName="ViewAssignRowDeleted" msprop:Generator_UserTableName="ViewAssign" msprop:Generator_RowChangedName="ViewAssignRowChanged" msprop:Generator_RowEvArgName="ViewAssignRowChangeEvent" msprop:Generator_RowClassName="ViewAssignRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Assignments" msprop:Generator_ColumnVarNameInTable="columnAssignments" msprop:Generator_ColumnPropNameInRow="Assignments" msprop:Generator_ColumnPropNameInTable="AssignmentsColumn" msprop:Generator_UserColumnName="Assignments" type="xs:int" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ViewAssign" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

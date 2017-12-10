@@ -1,0 +1,16 @@
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\bin\Debug\TeachersAssessment.exe.config
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\obj\x86\Debug\TeachersAssessment.csproj.ResolveComReference.cache
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\obj\x86\Debug\TeachersAssessment.exe
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\obj\x86\Debug\TeachersAssessment.pdb
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\bin\Debug\TeachersAssessment.exe
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\bin\Debug\TeachersAssessment.pdb
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\bin\Debug\System.Data.SQLite.dll
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\obj\x86\Debug\TeachersAssessment.csprojResolveAssemblyReference.cache
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\obj\x86\Debug\TeachersAssessment.Form1.resources
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\obj\x86\Debug\TeachersAssessment.Form2.resources
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\obj\x86\Debug\TeachersAssessment.fViewTimeTable.resources
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\obj\x86\Debug\TeachersAssessment.Properties.Resources.resources
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\obj\x86\Debug\TeachersAssessment.UCSchools.resources
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\obj\x86\Debug\TeachersAssessment.csproj.GenerateResource.Cache
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\obj\x86\Debug\TeachersAssessment.FormMain.resources
+D:\Documents\My Projects\TeachersAssessment\TeachersAssessment\obj\x86\Debug\TeachersAssessment.AttendanceFormcs.resources

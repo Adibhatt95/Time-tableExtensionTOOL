@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TeachersAssessment.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TablerDBConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=.\\TablerDB.db</Value>
+    </Setting>
+    <Setting Name="DataSet1Conn" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=.\\AssessDB.db</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
